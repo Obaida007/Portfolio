@@ -251,7 +251,7 @@ Delivered full bilingual support using modern internationalization tools`,
                   {/* Image */}
                   <div className="relative h-64 lg:h-full overflow-hidden">
                     <ImageWithFallback
-                      src={project.image }
+                      src={project.image.src}
                       alt={project.title}
                       className="w-full h-full object-cover"
                     />
